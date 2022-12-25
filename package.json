@@ -1,0 +1,18 @@
+{
+  "name": "mc-bot",
+  "version": "1.0.0",
+  "description": "Minecraft bot fetching status of server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dev-ashishsethi",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "minecraft-server-util": "^5.3.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
