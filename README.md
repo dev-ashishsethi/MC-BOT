@@ -4,7 +4,7 @@
 MC BOT is a Discord bot made using Discord.js for fetching the status of a minecraft server running on a public domain
 
 `-status` command can be used to fetch status of your minecraft server this will tell you if the server is online or not directly into your discord chat.
-
+use `-hello` command for a  surprise!
 ## How to run?
 1. Make sure you have node and VScode installed.
 2. Go to [Discord Developer portal](https://discord.com/developers/applications) and create application and then build a bot there and make sure to give it permissions 
