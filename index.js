@@ -28,7 +28,7 @@ client.on('messageCreate', async (message)=>{
     }
 
     if(command==='status'){
-        ping.status(process.env.URL,Number(process.env.PORT),options).then(res=>message.channel.send(`MC server version = ${res.version.name}, number of players online = ${res.players.online} and latency = ${res.roundTripLatency}`)).catch(err=>message.channel.send(`Sorry, couldn't connect to the server. Here's the error I got ${err} `))
+        ping.status(process.env.URL,Number(process.env.PORT),options).then(res=>message.channel.send(`MC server version = ${res.version.name}, number of players online = ${res.players.online} and latency = ${res.roundTripLatency}`)).catch(err=>message.channel.send(`Sorry, couldn't connect to the server. Here's the error I got: ${err} `))
     }
 
 })
