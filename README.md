@@ -7,7 +7,7 @@ MC BOT is a Discord bot made using Discord.js for fetching the status of a minec
 
 ## How to run?
 1. Make sure you have node and VScode installed.
-2. Go to [Discord Developer portal]https://discord.com/developers/applications and create application and then build a bot there and make sure to give it permissions 
+2. Go to [Discord Developer portal](https://discord.com/developers/applications) and create application and then build a bot there and make sure to give it permissions 
 3. After creating bot click on reset token then copy that token and keep at a safe place
 4. Copy permission ID and Client ID of your application, then add them in this link and then open this link `https://discord.com/oauth2/authorize?client_id=[client ID]&scope=bot&permissions=[permission ID]`
 5. You can run it by following these steps:
