@@ -5,19 +5,11 @@ const Discord= require('discord.js')
 const client = new Discord.Client({ intents: ['Guilds','GuildMessages','MessageContent'] })
 const prefix = "-"
 const ping= require('minecraft-server-util')
-const clientRcon =new ping.RCON()
 
-const loginOpts = {
-    timeout: 1000 * 5
-};
 
 const options = {
     timeout: 1000 * 1, // timeout in milliseconds
     enableSRV: true // SRV record lookup
-};
-
-const optionsRcon = {
-    timeout: 1000 * 5, // timeout in milliseconds
 };
 
 client.once('ready',()=>console.log('ready to go'))
