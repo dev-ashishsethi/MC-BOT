@@ -1,4 +1,4 @@
-# MC-BOT
+# MC-BOT (Minecraft Status BOT for Discord)
 ![minecraft-icon-1](https://user-images.githubusercontent.com/89299065/209523257-c6163efb-b64c-4c2a-97b7-1975ad54220b.png)
 
 MC BOT is a Discord bot made using Discord.js for fetching the status of a minecraft server running on a public domain
